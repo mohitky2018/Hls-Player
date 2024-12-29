@@ -85,7 +85,7 @@
                         autoStartLoad: true
                     });
 
-                    hls.loadSource('master.m3u8');
+                    hls.loadSource('/media/master.m3u8');
                     hls.attachMedia(audio);
 
                     hls.on(Hls.Events.MANIFEST_PARSED, function() {
