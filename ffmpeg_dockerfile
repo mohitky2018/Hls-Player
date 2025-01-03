@@ -1,0 +1,8 @@
+FROM jrottenberg/ffmpeg:latest
+
+WORKDIR /workspace
+
+# Copy any necessary files (optional, only if you want to bundle files into the image)
+# COPY ./your-local-file.mp4 /workspace/
+
+CMD ["ffmpeg", "-version"]
